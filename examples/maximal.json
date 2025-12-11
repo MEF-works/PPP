@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "created": "2025-01-10T12:00:00Z",
+    "updated": "2025-01-10T12:00:00Z",
+    "owner": "power-user@example.com"
+  },
+  "preferences": {
+    "ui": {
+      "theme": "dark",
+      "density": "compact",
+      "fontSize": "small",
+      "colorBlindMode": false,
+      "reducedMotion": false
+    },
+    "interaction": {
+      "tone": "minimal",
+      "verbosity": "minimal",
+      "confirmationStyle": "never",
+      "keyboardShortcuts": true
+    },
+    "automation": {
+      "level": "aggressive",
+      "aiSuggestions": true,
+      "autoSave": true,
+      "predictiveActions": true,
+      "maxAutomationScope": "account"
+    },
+    "notifications": {
+      "enabled": true,
+      "frequency": "realtime",
+      "channels": ["in-app", "push"],
+      "quietHours": {
+        "enabled": true,
+        "start": "22:00",
+        "end": "08:00"
+      }
+    },
+    "content": {
+      "language": "en-US",
+      "dateFormat": "ISO",
+      "timeFormat": "24h",
+      "currency": "USD",
+      "contentFilter": "moderate"
+    },
+    "privacy": {
+      "dataSharing": "anonymized",
+      "analytics": true,
+      "personalization": true
+    },
+    "accessibility": {
+      "screenReader": false,
+      "highContrast": false,
+      "focusIndicators": "standard"
+    },
+    "risk": {
+      "tolerance": "aggressive",
+      "requireConfirmation": false,
+      "maxTransactionAmount": 10000
+    }
+  },
+  "behaviors": {
+    "workflow": "multi-tasking",
+    "learningStyle": "trial-and-error",
+    "decisionSpeed": "quick"
+  }
+}
+

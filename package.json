@@ -1,0 +1,29 @@
+{
+  "name": "pip-protocol",
+  "version": "0.1.0",
+  "description": "Portable Preference Identity Protocol - The Internet That Adapts to You",
+  "private": true,
+  "workspaces": [
+    "demo",
+    "sdk/js"
+  ],
+  "scripts": {
+    "demo:dev": "cd demo && npm run dev",
+    "demo:build": "cd demo && npm run build",
+    "demo:start": "cd demo && npm start"
+  },
+  "keywords": [
+    "pip",
+    "identity",
+    "preferences",
+    "personalization",
+    "protocol"
+  ],
+  "author": "MEFworks llc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pip-protocol/pip"
+  }
+}
+

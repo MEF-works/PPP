@@ -1,0 +1,20 @@
+{
+  "name": "@pip/sdk",
+  "version": "0.1.0",
+  "description": "PIP SDK for JavaScript - Load and apply portable identity preferences",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pip",
+    "identity",
+    "preferences",
+    "personalization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
+

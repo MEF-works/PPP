@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "created": "2025-01-10T12:00:00Z",
+    "updated": "2025-01-10T12:00:00Z",
+    "owner": "user@example.com"
+  },
+  "preferences": {
+    "ui": {
+      "theme": "dark",
+      "density": "comfortable",
+      "fontSize": "medium"
+    },
+    "interaction": {
+      "tone": "friendly",
+      "verbosity": "moderate"
+    },
+    "automation": {
+      "level": "suggestions",
+      "aiSuggestions": true,
+      "autoSave": true
+    }
+  }
+}
+

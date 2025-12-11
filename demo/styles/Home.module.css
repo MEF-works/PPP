@@ -1,0 +1,252 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: padding var(--animation-speed);
+}
+
+.main[data-density="compact"] {
+  padding: 1rem;
+}
+
+.main[data-density="spacious"] {
+  padding: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  transition: font-size var(--animation-speed);
+}
+
+.main[data-density="compact"] .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main[data-density="spacious"] .title {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
+
+.identityLoader {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: padding var(--animation-speed);
+}
+
+.main[data-density="compact"] .identityLoader {
+  padding: 1rem;
+}
+
+.main[data-density="spacious"] .identityLoader {
+  padding: 3rem;
+}
+
+.identityLoader h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.identityLoader p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color var(--animation-speed);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity var(--animation-speed), transform var(--animation-speed);
+}
+
+.button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 4px;
+  padding: 1rem;
+  color: #c00;
+  margin-top: 1rem;
+}
+
+.success {
+  background: #efe;
+  border: 1px solid #cfc;
+  border-radius: 4px;
+  padding: 1rem;
+  color: #060;
+  margin-top: 1rem;
+}
+
+.demoSection {
+  margin-top: 2rem;
+}
+
+.demoSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: padding var(--animation-speed);
+}
+
+.main[data-density="compact"] .card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main[data-density="spacious"] .card {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.card p {
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.themePreview {
+  margin-top: 1rem;
+}
+
+.themeBox {
+  width: 100%;
+  height: 100px;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  transition: all var(--animation-speed);
+}
+
+.toneMessage {
+  background: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-style: italic;
+  border-left: 4px solid var(--accent);
+}
+
+.verbosityExample {
+  background: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.preferenceList {
+  list-style: none;
+  padding: 0;
+}
+
+.preferenceList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.preferenceList li:last-child {
+  border-bottom: none;
+}
+
+.jsonPreview {
+  background: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.placeholder {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+}
+
+.placeholder h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.placeholder p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.placeholder code {
+  background: var(--bg-secondary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
+

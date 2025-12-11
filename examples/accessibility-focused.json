@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "metadata": {
+    "created": "2025-01-10T12:00:00Z",
+    "updated": "2025-01-10T12:00:00Z",
+    "owner": "accessible-user@example.com"
+  },
+  "preferences": {
+    "ui": {
+      "theme": "high-contrast",
+      "density": "spacious",
+      "fontSize": "xlarge",
+      "colorBlindMode": true,
+      "reducedMotion": true
+    },
+    "interaction": {
+      "tone": "friendly",
+      "verbosity": "detailed",
+      "confirmationStyle": "always",
+      "keyboardShortcuts": true
+    },
+    "automation": {
+      "level": "suggestions",
+      "aiSuggestions": true,
+      "autoSave": true,
+      "predictiveActions": false
+    },
+    "accessibility": {
+      "screenReader": true,
+      "highContrast": true,
+      "focusIndicators": "enhanced"
+    }
+  },
+  "behaviors": {
+    "workflow": "linear",
+    "learningStyle": "tutorial",
+    "decisionSpeed": "deliberate"
+  }
+}
+
